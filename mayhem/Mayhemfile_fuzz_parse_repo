@@ -1,0 +1,5 @@
+project: savantenvs/clib
+target: fuzz_parse_repo
+cmds:
+  - cmd: /mayhem/fuzz_parse_repo
+    libfuzzer: true

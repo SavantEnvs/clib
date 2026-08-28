@@ -1,0 +1,5 @@
+project: savantenvs/clib
+target: fuzz_manifest
+cmds:
+  - cmd: /mayhem/fuzz_manifest
+    libfuzzer: true

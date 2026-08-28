@@ -1,0 +1,5 @@
+project: savantenvs/clib
+target: fuzz_parson
+cmds:
+  - cmd: /mayhem/fuzz_parson
+    libfuzzer: true
